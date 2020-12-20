@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__navBar {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.selected:visited {
+    color: white
+}
+
+.header__Link {
+    text-decoration: none;
+}
